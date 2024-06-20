@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jost', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+body {
+  background: #F2F2F2;
+}
+
+nav { 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #1D5399;
+  height: 10vh;
+
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list h5 {
+  letter-spacing: 1px;
+  margin-left: 40px;
+}
+
+main.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+
+main.cards section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin-left: 40px;
+  box-shadow: 20px 20px 50px -30px #79717A;
+}
+
+main.cards section.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  
+}
+
+table.table-bg {
+  align-items: center;
+
+}
+
+tr:nth-child(even) {
+  background-color: white;
+  padding: 15px;
+}
+
+th {
+  background-color: #F5F5F5;
+  padding: 15px;
+  border-radius: 8px
+}
+
+td {
+  padding: 15px;
+}
